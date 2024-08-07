@@ -56,7 +56,7 @@ export const LoginProvider = ({ children }) => {
   };
 
 
-  const serverURL = 'https://goldratecalculator-backend.onrender.com';
+  const serverURL = 'https://crypto-price-tracker-backend.onrender.com';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
