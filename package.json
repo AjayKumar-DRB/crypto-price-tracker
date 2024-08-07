@@ -1,7 +1,7 @@
 {
   "name": "gold-rate-calc",
   "version": "0.1.0",
-  "homepage": "ajaykumar.goldratecalc.com",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
