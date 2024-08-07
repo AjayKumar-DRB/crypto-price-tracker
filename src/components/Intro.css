@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #171b26;
+  color: #ffffff;
+}
+
+.searchBar > label {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #131131;
+}
+
+table tbody {
+  background-color: #293143;
+}
+
+table tbody tr:hover {
+  background-color: #171b26;
+}
+
+.navHeading {
+  background-color: #293143;
+  margin: 0;
+  padding: 10px;
+}
+
+.crdClr {
+  background-color: #293143;
+  color: #ffffff;
+}
+
+.card-header, .card-body {
+  border: solid 2px white;
+}
+
+.card-header {
+  border-bottom: solid 1px white;
+}
+
+.card-body {
+  border-top: solid 1px white;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f0a3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-select,
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.alertbox p {
+    margin: 0;
+}
+
+.nav-link {
+    cursor: pointer;
+}

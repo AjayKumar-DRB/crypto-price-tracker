@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.LoginRegisterBody{
+    background-color: #fffff0;
+    background-image: radial-gradient(at 36% 38%, rgb(255, 184, 122) 0px, transparent 50%), radial-gradient(at 18% 10%, rgb(31, 221, 255) 0px, transparent 50%), radial-gradient(at 46% 45%, rgb(255, 219, 222) 0px, transparent 50%), radial-gradient(at 86% 51%, rgb(255, 133, 173) 0px, transparent 50%), radial-gradient(at 12% 86%, rgb(255, 181, 138) 0px, transparent 50%), radial-gradient(at 79% 79%, rgb(107, 102, 255) 0px, transparent 50%), radial-gradient(at 78% 15%, rgb(255, 133, 167) 0px, transparent 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.social-icons a{
+    border: 1.5px solid #533bad;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 3px;
+    width: 40px;
+    height: 40px;
+    color: #533bad;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    color: #fffff0;
+    background-color: #533bad;
+    border-color: #533bad;
+}
+
+.sign-in, .sign-up{
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #fffff0;
+    color: #333333 ;
+}
+
+.text-right, .text-left{
+    border-radius: 10px;
+    background-color: #533bad;
+    color: #fffff0;
+}
+
+.text-left>div>*, .text-right>div>*{
+    padding: 10px;
+}
+
+.textField{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.btn-outline-dark{
+    color: #533bad;
+    border-color: #533bad;
+}
+
+.btn-outline-dark:hover{
+    color: #fffff0;
+    background-color: #533bad;
+    border-color: #533bad;
+}
+
+@media (width < 600px) {
+
+    .LoginRegisterBody{
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .sign-in, .sign-up{
+        text-align: center;
+    }
+
+    .social-icons{
+        justify-content: center !important;
+    }
+
+    .sign-in-field, .sign-up-field{
+        align-items: center !important;
+    }
+
+    .text-left, .text-right{
+        margin: 1rem 0;
+    }
+}
